@@ -92,6 +92,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-left: solid 1px #828485;
 }
 
 .main_imagen{
