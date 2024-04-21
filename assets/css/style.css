@@ -6,3 +6,83 @@
 body{ 
     display: flex;
 }
+
+.sidebar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+}
+.sidebar_btn button{
+    padding: 10px;
+    background-color: #A491D2;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+.sidebar{
+    width: 300px;
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.sidebar_header_img{
+    display: flex;
+    gap: 10px;
+
+}
+.sidebar_header_img figure{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.usuario{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.sidebar_header_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.sidebar_header_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+.sidebar_users_ul{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar_users_li{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-top: solid 1px #828485;
+}
+.sidebar_users_li figure{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.sidebar_users_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar_users_texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
