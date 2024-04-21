@@ -86,3 +86,28 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+main{
+    display: flex;
+    flex-grow:1 ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_imagen{
+    align-items: center;
+}
+.main_imagen img{
+    display: flex;
+    width: 200px;
+   
+}
+.main_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto_p{
+    justify-content: center;
+}
